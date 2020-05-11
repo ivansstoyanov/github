@@ -1,0 +1,15 @@
+{
+  "name": "github-presentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "presentation": "reveal-md slides.md",
+    "generate": "reveal-md slides.md --static docs"
+  },
+  "author": "Ivan Stoyanov",
+  "license": "MIT",
+  "homepage": "https://ivansstoyanov.github.io/github/",
+  "devDependencies": {
+    "reveal-md": "^0.4.2"
+  }
+}
