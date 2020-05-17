@@ -1,7 +1,6 @@
 ---
 title: How to Git in the Hub
 separator: <!--s-->
-theme: https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/theme/lime.css
 revealOptions:
     transition: 'slide'
 controls: true
