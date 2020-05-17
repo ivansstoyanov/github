@@ -8,7 +8,7 @@ controls: true
 progress: true
 slideNumber: true
 ---
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 # How to Git in the Hub
 <!-- .element: class="fragment fade-down" data-fragment-index="1" -->
@@ -25,7 +25,7 @@ slideNumber: true
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 # Github Actions
 
@@ -40,7 +40,7 @@ slideNumber: true
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions
 
@@ -66,7 +66,7 @@ jobs:
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions - Trigger Build
 
@@ -99,7 +99,7 @@ on:
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions - Trigger Build
 
@@ -128,7 +128,7 @@ on:
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions - Jobs
 
@@ -161,7 +161,7 @@ runs-on: windows-latest, windows-2019, ubuntu-latest, ubuntu-18.04, ubuntu-16.04
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions - Jobs
 
@@ -186,7 +186,7 @@ jobs:
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions - Jobs
 
@@ -207,7 +207,7 @@ steps:
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions - Job Matrix
 
@@ -233,7 +233,7 @@ include:
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions - Services
 
@@ -259,7 +259,7 @@ ${{ job.services.redis.ports['6379'] }}
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions - Environments & Secrets
 
@@ -284,7 +284,7 @@ steps.id
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions - Marketplace
 
@@ -304,7 +304,7 @@ steps.id
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions - CRON Jobs
 ```
@@ -331,7 +331,7 @@ jobs:
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Actions - Examples
 
@@ -351,7 +351,7 @@ jobs:
 <!-- .element: class="fragment fade-right" data-fragment-index="7" -->
 
 <!--s-->
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Packages
 
@@ -373,7 +373,7 @@ npm publish
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Packages - Deployment
 
@@ -427,7 +427,7 @@ jobs:
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github Pages
 
@@ -438,7 +438,7 @@ jobs:
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github - Tips & Trics
 
@@ -472,7 +472,7 @@ info here
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 ## Github - Next Features
 
@@ -483,8 +483,8 @@ info here
 
 <!--s-->
 
-<!-- .slide: data-background="./images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
 # Questions
 
-<img src="./images/george.gif" />
+<img src="https://github.com/ivansstoyanov/github/blob/gh-pages/images/george.gif?raw=true" />
