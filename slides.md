@@ -141,7 +141,7 @@ jobs:
         with:
           node-version: 10
         env:
-         MAGIC_NUMBER: 42
+         MAGIC_NUMBER: 420
       - run: npm install
       - run: npm test
 ```
@@ -290,7 +290,7 @@ steps.id
 - Marketplace jobs
 <!-- .element: class="fragment fade-in-then-out" data-fragment-index="1" -->
 
-- Custom jobs (can be taken from dockerhub)
+- Custom jobs
 <!-- .element: class="fragment fade-in-then-out" data-fragment-index="2" -->
 
 * Apps <!-- .element: class="fragment fade-in-then-out" data-fragment-index="3" -->
