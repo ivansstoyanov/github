@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "presentation": "reveal-md slides.md",
-    "generate": "reveal-md slides.md --static docs && cp -r ./theme ./docs/theme && && cp -r ./images ./docs/images"
+    "generate": "reveal-md slides.md --static docs && cp -r ./theme ./docs/theme && cp -r ./images ./docs/images"
   },
   "author": "Ivan Stoyanov",
   "license": "MIT",
