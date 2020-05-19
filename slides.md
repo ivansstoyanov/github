@@ -187,6 +187,53 @@ jobs:
 
 <!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
 
+## Github Actions - Artefacts
+
+```
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build-prod
+      - name: Archive Production Artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: dist
+          path: dist
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Download Artifact
+        uses: actions/download-artifact@master
+        with:
+          name: dist
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+```
+
+<!--s-->
+
+<!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
+
 ## Github Actions - Jobs
 
 ```
@@ -290,7 +337,7 @@ steps.id
 - Marketplace jobs
 <!-- .element: class="fragment fade-in-then-out" data-fragment-index="1" -->
 
-- Custom jobs
+- Custom jobs - [local building](https://github.com/nektos/act)
 <!-- .element: class="fragment fade-in-then-out" data-fragment-index="2" -->
 
 * Apps <!-- .element: class="fragment fade-in-then-out" data-fragment-index="3" -->
@@ -336,7 +383,7 @@ jobs:
 
 - gCloud Frontend
 <!-- .element: class="fragment fade-right" data-fragment-index="1" -->
-- gCloud Node Backend
+- gCloud Backend
 <!-- .element: class="fragment fade-right" data-fragment-index="2" -->
 - Docker Image Push (dockerhub, gCloud, aws)
 <!-- .element: class="fragment fade-right" data-fragment-index="3" -->
@@ -348,6 +395,8 @@ jobs:
 <!-- .element: class="fragment fade-right" data-fragment-index="6" -->
 - Slack Notifications
 <!-- .element: class="fragment fade-right" data-fragment-index="7" -->
+- JSON manipulation
+<!-- .element: class="fragment fade-right" data-fragment-index="8" -->
 
 <!--s-->
 <!-- .slide: data-background="https://raw.githubusercontent.com/ivansstoyanov/github/gh-pages/images/logo-dark.svg" data-background-size="12%" data-background-position="top 20px left 20px"-->
@@ -460,7 +509,7 @@ info here
 </details>
 <!-- .element: class="fragment fade-right" data-fragment-index="4" -->
 
-- git shortlog -sn
+- git shortlog -sn  [git-extra](https://github.com/tj/git-extras/blob/master/Commands.md)
 <!-- .element: class="fragment fade-right" data-fragment-index="5" -->
 - [Dark Theme](https://github.com/StylishThemes/GitHub-Dark)
 <!-- .element: class="fragment fade-right" data-fragment-index="6" -->
